@@ -29,10 +29,6 @@ void PrintArray(string [] arr2)
         Console.Write($"{arr2[i]} ");
     }
     Console.WriteLine();
-    if (arr2.Length == 0)
-    {
-        Console.WriteLine("Массив пуст");
-    }
 }
 
 string[] MyArray = NewArray(array1);
